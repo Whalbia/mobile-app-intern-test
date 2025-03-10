@@ -32,10 +32,10 @@ Build a simple **To-Do List App** with the following features:
 - **Flutter**: If you prefer, use Dart with a simple Flutter setup.
 
 ## Submission Guidelines
-1. Clone this repository.
-2. Create a new branch with your name (e.g., `feature/john-doe`).
-3. Implement the required features.
-4. Push your changes and submit a pull request.
+1. Create your own repository.
+2. Implement the required features.
+3. Push your changes.
+4. Add [cary-cba](https://github.com/cary-cba) as a contributor to your repository.
 
 ## Evaluation Criteria
 - **Code structure & clarity**: Is the project well-organized and readable?
