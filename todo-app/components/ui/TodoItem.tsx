@@ -14,8 +14,8 @@ const TodoItem: React.FC<TodoProps> = ({todo, changeCompletion, deleteItem}) => 
         <View style={styles.todoContainer}>
             {/* completion checkbox */}
             <Pressable style={[styles.completionButton, todo.completed ? styles.completed : null]} onPress={() => changeCompletion(todo)}></Pressable>
-            
-            <Text style={styles.todoText}>{todo.name}</Text>
+
+            <Text style={[styles.todoText, todo.completed ? styles.completedText : null]}>{todo.name}</Text>
 
             {/* delete button */}
             <Pressable onPress={() => deleteItem(todo)}>
@@ -34,7 +34,11 @@ const styles = StyleSheet.create({
         marginRight: 10
     },
     completed: {
-        backgroundColor: '#666666'
+        backgroundColor: '#C0C0C0'
+    },
+    completedText: {
+        color: '#C0C0C0',
+        textDecorationLine: "line-through"
     },
     todoContainer: {
         flexDirection: "row",
